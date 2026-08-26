@@ -6,6 +6,3 @@ pillow
 numpy
 opencv-python-headless
 requests
-torch
-torchvision
-geoclip
