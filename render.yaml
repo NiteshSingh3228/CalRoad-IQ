@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: calroad-iq
+    env: docker
+    plan: free
+    dockerCommand: "streamlit run Project.py --server.port=$PORT --server.address=0.0.0.0"
