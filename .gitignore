@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Secrets — NEVER commit these
+*.key
+*.secret
+secrets.json
+credentials.json
+
+# Streamlit
+.streamlit/
+
+# Pytest / testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# JetBrains IDEs
+.idea/
+
+# VS Code
+.vscode/
+
+# Large model / data files
+phd.zip
+dataset/phd/
+*.zip
+
+# Disconnected ML model files (not used by CalRoad IQ pipeline — see README)
+*.pkl
+
+# Disconnected dataset files (not used by CalRoad IQ pipeline — see README)
+dataset/
+
+# Python package build
+dist/
+build/
+*.egg-info/

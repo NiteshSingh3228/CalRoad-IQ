@@ -1,0 +1,11 @@
+streamlit
+plotly
+folium
+streamlit-folium
+pillow
+numpy
+opencv-python
+requests
+torch
+torchvision
+geoclip
